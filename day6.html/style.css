@@ -1,0 +1,32 @@
+.fcontainer{
+    border: 2px solid rgb(237, 56, 56);
+    height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.fitem{
+    background-color: rgb(148, 77, 214);
+    border: 2px solid black;
+    margin: 12px;
+    width: 120px;
+    height: 100px;
+}
+.item1{
+    background-color: aqua;
+    order: 9;
+}
+.item2{
+    background-color: rgb(21, 255, 0);
+    order: 1;
+    align-self: center;
+}
+.item3{
+    background-color: rgb(138, 174, 174);
+    order: -1;
+}
+.item4{
+    background-color: rgb(144, 198, 141);
+    order: 4;
+    align-self: center;
+}

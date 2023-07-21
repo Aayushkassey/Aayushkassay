@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: aqua;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid hsl(0, 44%, 72%);
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(odd){
+            background-color: rgb(39, 216, 216);
+        }
+        tr:nth-child(even){
+            background-color: rgb(145, 197, 212);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header>
+            <nav style="background-color: hwb(312 76% 22%);; padding: 20px; display: flex; justify-content: space-evenly;">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Our Service</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+    </div><br><br>
+    <div>
+        <!-- This is table -->
+        <table>
+            <tr>
+                <th>Semester</th>
+                <th>Subject</th>
+                <th>Subject Code</th>
+            </tr>
+            <!-- This is table row -->
+            <tr>
+                <td>1st</td>
+                <td>C-Programming</td>
+                <td>C.sc101</td>
+            </tr>
+            <tr>
+                <!-- This is table data  -->
+                <td>2nd</td>
+                <td>OOP</td>
+                <td>C.sc104</td>
+            </tr>
+            <tr>
+                <td>3rd</td>
+                <td>DSA</td>
+                <td>C.sc107</td>
+            </tr>
+            <tr>
+                <td>4th</td>
+                <td>Computer Network</td>
+                <td>C.sc111</td>
+            </tr>
+            <tr>
+                <td>5th</td>
+                <td>Web technology</td>
+                <td>C.sc301</td>
+            </tr>
+            <tr>
+                <td>6th</td>
+                <td>Image Processing</td>
+                <td>C.sc222</td>
+            </tr>  
+        </table>
+    </div><br><br>
+    <iframe src="day2.html" height="300" width="500" frameborder="0"></iframe><br><br>
+    <footer style="background-color: aqua; padding: 30px; text-align: center; height: 20px;width: 10px: ">
+        &copy:2023 My_Site. All right reserved. <br>
+        For any queries <a href="mailto:surump3@gmail.com">surump3gmail.com</a>
+    </footer>
+</body>
+</html>
